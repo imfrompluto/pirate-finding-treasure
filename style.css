@@ -1,0 +1,46 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    background-image: url("bg.jpeg");
+    text-align: center;
+}
+
+h1{
+    background: radial-gradient(circle, rgba(251,140,63,1) 0%, rgba(252,206,70,1) 100%);
+    background-clip: text;
+    -webkit-background-clip: text;
+    color: transparent;
+    display: inline-block;
+    font-size: 100px;
+    text-align: center;
+    font-family: 'Bonheur Royale', cursive;
+    padding: 0 20px;
+}
+
+h4{
+    font-family: 'Bonheur Royale', cursive;
+    font-size: 40px;
+    background-color: white;
+    width: 160px;
+    margin: auto;
+    border-radius: 15px;
+    margin-bottom: 20px;
+}
+
+.pirate{
+    height: 50px;
+    position: absolute;
+    left: 0;
+    top: 0;
+    transition: .9s;
+    pointer-events: none;
+}
+
+.game{
+ position: relative;
+ width: 407px;
+ margin: auto;
+}
